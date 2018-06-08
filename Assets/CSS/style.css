@@ -85,6 +85,12 @@ header {
     top: 10px;
 }
 
+.profile {
+    width: 25%;
+    float: left;
+    PADDING-RIGHT: 100px;
+}
+
 p {
     line-height: 1.6;
 }
