@@ -57,7 +57,6 @@ header {
 
 #about {
     float: left;
-    display: inline-block;
     color:#ffffff;
     text-align: center;
     padding: 25px;
@@ -66,7 +65,6 @@ header {
 
 #portfolio {
     float: left;
-    display: inline-block;
     color:#ffffff;
     text-align: center;
     padding: 25px;
@@ -75,11 +73,16 @@ header {
 
 #contact {
     float: left;
-    display: inline-block;
     color:#ffffff;
     text-align: center;
     padding: 25px;
     text-decoration: none;
+}
+
+.button {
+    position: fixed;
+    right: 465px;
+    top: 10px;
 }
 
 p {
