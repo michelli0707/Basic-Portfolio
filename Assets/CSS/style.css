@@ -98,35 +98,45 @@ p {
 .img1 {
     display: inline-block;
     float: left;
-    width: 90%;
+    box-sizing: border-box;
+    width: 33.33%;
+    margin: 25px;
     padding: 5px;
 }
 
 .img2 {
     display: inline-block;
     float: left;
-    width: 90%;
+    box-sizing: border-box;
+    width: 33.33%;
+    margin: 25px;
     padding: 5px;
 }
 
 .img3 {
     display: inline-block;
     float: none;
-    width: 90%;
+    box-sizing: border-box;
+    width: 33.33%;
+    margin: 25px;
     padding: 5px;
 }
 
 .img4 {
     display: inline-block;
     float: left;
-    width: 90%;
+    box-sizing: border-box;
+    width: 33.33%;
+    margin: 25px;
     padding: 5px;
 }
 
 .img5 {
     display: inline-block;
     float: left;
-    width: 90%;
+    box-sizing: border-box;
+    width: 33.33%;
+    margin: 25px;
     padding: 5px;
 }
 
@@ -136,10 +146,16 @@ p {
     display: table;
 }
 
+img {
+    width: 100%;
+    height: 200px;
+    width: 200px;
+}
+
 span {
     display: inline-block;
     position: relative;
-    right: 150px; 
+    text-align: center;
     background-color: #4aaaa5;
     color: #ffffff;
 }
